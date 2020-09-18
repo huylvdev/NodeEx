@@ -1,5 +1,8 @@
 'use strict';
 
+const HOST = '0.0.0.0'
+const PORT = '8080'
+
 const app = require('./bin/server');
 
-app.listen(3000, () => console.log('Local app listening on port 3000!'));
+app.listen(PORT, HOST);
