@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  server:
+    image: nodeserver
+    build: ./server
+ 
